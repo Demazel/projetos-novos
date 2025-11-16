@@ -32,7 +32,7 @@ def ler_musicas():
                 if cada_linha:
                     titulo,artista,ano,genero,duracao_segundos = cada_linha
                     #tenho que falar todos os cabeçalhos do meu arquivo
-                    print('Titulo |',titulo,'Artista |',artista,'ano |',ano)
+                    print(titulo,'|',artista,'|',ano, '|', genero)
 
     except FileNotFoundError:
         print('erro')
