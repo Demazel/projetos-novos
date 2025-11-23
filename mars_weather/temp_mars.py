@@ -1,4 +1,4 @@
 import pandas as pd
 
-df_mars = pd.read_csv("mars-weather.csv")
+df_mars_clima = pd.read_csv("mars-weather.csv")
 
