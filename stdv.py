@@ -1,7 +1,7 @@
 def stdv():
     import pandas as pd
 
-    data = {'scores': [2, 3, 5, 8, 10, 9, 8, 82]}
+    data = {'scores': [2, 3, 4, 5, 6]}
     df = pd.DataFrame(data)
 
     # Calculate standard deviation of the 'scores' column
