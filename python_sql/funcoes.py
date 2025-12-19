@@ -47,7 +47,7 @@ def mostrar_tabela(nome_tabela):
         # | '4' | 'nome_cliente | 'bla bla bla' |
         
         # o comando description coleta os cabecalhos de uma tabela
-        # o comando fetchall() coleta as linhas 
+        # o comando fetchall() coleta as linhas
         
 def inserir_products():
     product_id = int(input('informe o id'))  # palceholder 1
