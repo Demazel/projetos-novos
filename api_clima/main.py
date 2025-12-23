@@ -38,7 +38,7 @@ dados = buscar_clima(latitude, longitude)
 horas = dados['hourly']['time']
 temperatura = dados["hourly"]["temperature_2m"]
 
-plt.scatter(horas, temperatura)
+plt.plot23(horas, temperatura)
 # plt.plot cria um grafico, onde informo como parametro primeio o eixo x e depois o eixo y
 plt.title("Temperatura por hora")
 # para ver o grafico
