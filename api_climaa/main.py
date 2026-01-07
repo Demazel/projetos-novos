@@ -28,7 +28,7 @@ def buscar_clima(latitude, longitude):
     dados = resposta.json()
     # o sistema transforma os dados em json para poder manipular eles 
     
-    return dados asdasdasd
+    return dados
 
 latitude = float(input("Qual a latitude? "))
 longitude = float(input("Qual a longitude? "))
